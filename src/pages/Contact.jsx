@@ -35,7 +35,7 @@ const Contact = () => {
 
           {/* Right: Contact Form */}
    <form
-  action="https://formsubmit.co/el/dehoye"
+  action="https://formsubmit.co/adetoyeseadeniran25@gmail.com"
   method="POST"
   className="space-y-4"
 >
