@@ -1,5 +1,5 @@
 import React from 'react';
-import { link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 
 const Hero = () => {
