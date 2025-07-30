@@ -1,4 +1,5 @@
 import React from 'react';
+import { link } from 'react-router-dom'
 
 
 const Hero = () => {
@@ -28,13 +29,14 @@ const Hero = () => {
              With a passion for both design and development, I bring ideas to life by crafting intuitive user interfaces and seamless user experiences —
               all while staying current with the latest trends and tools in modern web development
           </p>
-          <a
-            href="/about"
+          <Link
+            to="/about"
             className="inline-block px-6 py-3 bg-gray-800 dark:bg-white text-white dark:text-gray-900 rounded-md hover:bg-gray-700 transition"
             ext-gray-900 dark:text-white
           >
             MORE ABOUT ME
-          </a>
+          </Link>
+
           
         </div>
 
