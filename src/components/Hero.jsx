@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Home = () => {
+const Hero = () => {
   return (
     <section className=" dark:max-h-full bg-white-800 dark:bg-gray-800 text-white-800 flex items-center justify-center px-6 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-full items-center">
@@ -28,13 +28,14 @@ const Home = () => {
              With a passion for both design and development, I bring ideas to life by crafting intuitive user interfaces and seamless user experiences —
               all while staying current with the latest trends and tools in modern web development
           </p>
-          <a 
+          <a
             href="/about"
             className="inline-block px-6 py-3 bg-gray-800 dark:bg-white text-white dark:text-gray-900 rounded-md hover:bg-gray-700 transition"
             ext-gray-900 dark:text-white
           >
             MORE ABOUT ME
           </a>
+          
         </div>
 
       </div>
@@ -42,4 +43,4 @@ const Home = () => {
   );
 };
 
-export default Home; 
+export default Hero; 

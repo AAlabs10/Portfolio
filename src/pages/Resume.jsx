@@ -63,7 +63,7 @@ const Resume = () => {
         {/* Download Button */}
         <div className="mt-6">
           <a
-            href="/public/Adetoye CV.doc" // Replace with your actual resume file
+            href="Adetoye CV.doc" // Replace with your actual resume file
             download
             className="inline-block bg-gray-800 text-white dark:bg-white dark:text-gray-900 px-6 py-3 rounded-md hover:bg-gray-700 transition"
           >
