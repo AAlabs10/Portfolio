@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
@@ -21,15 +22,18 @@ const Contact = () => {
             </div>
 
             <div className="flex space-x-4 mt-4">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <Link to="https://github.com/AAlabs10" target="_blank" rel="noopener noreferrer" className="hover:underline">
                 GitHub
-              </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              </Link>
+              <Link to="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:underline">
                 LinkedIn
-              </a>
-              <a href="https://dribbble.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              </Link>
+              <Link to="https://dribbble.com/adeniran-adetoyese" target="_blank" rel="noopener noreferrer" className="hover:underline">
                 Dribbble
-              </a>
+              </Link>
+               <Link to="https://behance.net/adeniranadetoye" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Behance
+              </Link>
             </div>
           </div>
 
