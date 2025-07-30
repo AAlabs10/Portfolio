@@ -34,44 +34,51 @@ const Contact = () => {
           </div>
 
           {/* Right: Contact Form */}
-          <form className="space-y-4">
-            <div>
-              <label className="block mb-1 font-medium" htmlFor="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                className="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
-                placeholder="Your Name"
-                required
-              />
-            </div>
-            <div>
-              <label className="block mb-1 font-medium" htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                className="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
-                placeholder="your@email.com"
-                required
-              />
-            </div>
-            <div>
-              <label className="block mb-1 font-medium" htmlFor="message">Message</label>
-              <textarea
-                id="message"
-                rows="5"
-                className="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
-                placeholder="Write your message..."
-                required
-              />
-            </div>
-            <button
-              type="submit"
-              className="px-6 py-3 bg-gray-800 text-white dark:bg-white dark:text-gray-900 rounded-md hover:bg-gray-700 transition"
-            >
-              Send Message
-            </button>
-          </form>
+   <form
+  action="https://formsubmit.co/el/dehoye"
+  method="POST"
+  className="space-y-4"
+>
+  <div>
+    <label className="block mb-1 font-medium" htmlFor="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      className="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
+      placeholder="Your Name"
+      required
+    />
+  </div>
+  <div>
+    <label className="block mb-1 font-medium" htmlFor="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      className="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
+      placeholder="your@email.com"
+      required
+    />
+  </div>
+  <div>
+    <label className="block mb-1 font-medium" htmlFor="message">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="5"
+      className="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
+      placeholder="Write your message..."
+      required
+    />
+  </div>
+  <button
+    type="submit"
+    className="px-6 py-3 bg-gray-800 text-white dark:bg-white dark:text-gray-900 rounded-md hover:bg-gray-700 transition"
+  >
+    Send Message
+  </button>
+</form>
 
         </div>
       </div>

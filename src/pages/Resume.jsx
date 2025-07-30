@@ -58,6 +58,7 @@ const Resume = () => {
           <p className="text-gray-700 dark:text-gray-300">
             <strong>Self-Taught / Aptech Osogobo</strong> – Completed several frontend development and UI/UX design courses via platforms like Udemy, FreeCodeCamp, and Coursera.
           </p>
+          <p>HND Accountancy - 3.02(Upper Credit)</p>
         </div>
 
         {/* Download Button */}
