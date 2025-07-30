@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import {
   FaHtml5,
   FaCss3Alt,
@@ -48,12 +49,12 @@ const Portfolio = () => {
               <p className="text-gray-600 mb-4">
                 A clean portfolio built with React and Tailwind CSS showcasing my skills and projects.
               </p>
-              <a
-                href="/web"
+              <Link
+                to="/web"
                 className="text-blue-600 hover:underline"
               >
                 View Project →
-              </a>
+              </Link>
             </div>
 
             {/* Project 2 */}
@@ -62,12 +63,12 @@ const Portfolio = () => {
               <p className="text-gray-600 mb-4">
                 A sleek UI dashboard for tracking analytics and stats — designed in Figma.
               </p>
-              <a
-                href="/design"
+              <Link
+                to="/design"
                 className="text-blue-600 hover:underline"
               >
                 View Design →
-              </a>
+              </Link>
             </div>
           </div>
         </div>
