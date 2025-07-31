@@ -4,14 +4,14 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 const Contact = () => {
   return (
     <section className="min-h-screen px-6 py-12 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-      <div className=" mx-auto ml-1 mr-1">
+      <div className="max-w-full mx-auto ">
         <h1 className="text-4xl font-bold mb-8 border-b pb-2">Get in Touch</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center">
 
 
           {/* Left: Contact Info */}
-          <div className="space-y-4 px-4 md:px-8">
+          <div className="space-y-4 px-1 md:px-8">
             <p className="text-lg text-gray-700 dark:text-gray-300">
               I’m open to freelance projects, collaborations, or any frontend and UI/UX design opportunities. Feel free to reach out!
             </p>
