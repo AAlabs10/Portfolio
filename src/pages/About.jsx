@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="min-h-screen px-6 py-12 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-      <div className="max-w-full mx-auto">
+    <section className="min-h-screen  px-6 py-12 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <div className="max-w-full mx-auto ">
         <h1 className="text-4xl font-bold mb-8 border-b pb-2">About Me</h1>
 
         {/* Intro */}

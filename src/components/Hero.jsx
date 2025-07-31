@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className=" dark:max-h-full bg-white-800 dark:bg-gray-800 text-white-800 flex items-center justify-center px-6 py-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-full items-center">
+    <section className=" dark:min-w-full dark:min-h-screen  bg-white-800 dark:bg-gray-800 text-white-800 flex items-center justify-center px-4 md:px-10 py-16">
+   <div className="dark:max-w-6xl mx-auto grid grid-cols-1  md:grid-cols-2 gap-10 ml-10 mr-10 items-center">
+
         
         {/* Left: Profile Image */}
         <div className="flex justify-center">

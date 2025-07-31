@@ -12,7 +12,7 @@ import Design from './Design';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen dark:min-h-screen overflow-visible flex flex-col bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+      <div className="max-h-screen dark:max-h-screen overflow-visible flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
         <Navbar />
         <main className="flex-grow flex">
           <Routes>
