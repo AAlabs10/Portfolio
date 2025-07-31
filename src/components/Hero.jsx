@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <section className=" dark:min-w-full dark:min-h-screen  bg-white-800 dark:bg-gray-800 text-white-800 flex items-center justify-center px-4 md:px-10 py-16">
-   <div className="dark: mx-auto grid grid-cols-1  md:grid-cols-2 gap-10 ml-3 items-center">
+   <div className="dark: mx-auto grid grid-cols-1  md:grid-cols-2 gap-10 ml-1 mr-1  items-center">
 
         
         {/* Left: Profile Image */}
