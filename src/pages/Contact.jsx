@@ -42,7 +42,7 @@ const Contact = () => {
    <form
   action="https://formsubmit.co/adetoyeseadeniran25@gmail.com"
   method="POST"
-  className="space-y-4 px-4 md:px-8"
+  className="space-y-4"
 >
   <div>
     <label className="block mb-1 font-medium" htmlFor="name">Name</label>
