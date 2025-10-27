@@ -7,7 +7,9 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfoilo';
 import Web from './pages/Web';
-import Design from './Design';
+import Design from './pages/design';
+
+
 
 function App() {
   return (
@@ -22,8 +24,7 @@ function App() {
                <Route path="/resume" element={<Resume/>} />
                <Route path="/portfoilo" element={<Portfolio/>} />
                  <Route path="/web" element={<Web/>} />
-                 <Route path="design" element={<Design/>} />
-
+                  <Route path="/design" element={<Design/>} />
           </Routes>
         </main>
       </div>
