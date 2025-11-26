@@ -35,7 +35,7 @@ export default function Design() {
             <img
               src="/Appointment App.jpg"
               alt="Doctor Appointment Website Design"
-              className="rounded-2xl shadow-2xl max-h-[95vh] w-70 mx-auto"
+              className="rounded-2xl shadow-2xl max-h-[92vh] w-70 mx-auto"
             />
             <button
               onClick={handleClose}

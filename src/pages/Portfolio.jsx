@@ -50,7 +50,7 @@ const Portfolio = () => {
                 A clean portfolio built with React and Tailwind CSS showcasing my skills and projects.
               </p>
               <Link
-                to="/web"
+                to="/projects"
                 className="text-blue-600 hover:underline"
               >
                 View Project →
